@@ -1,13 +1,11 @@
 
 package Gestionvehiculos;
 
-import java.util.logging.Logger;
-
 /**
  *
  * @author cyn
  */
-abstract public class Vehiculo {
+abstract class Vehiculo implements Impuestos{
     String marca;
     String modelo;
     int anio;
@@ -33,11 +31,15 @@ abstract public class Vehiculo {
     
     @Override
     public String toString() {
-        return "{" + "MARCA=" + marca + ", MODELO=" + modelo + ", AÑO=" + anio + 
-                " PROPIETARIO "+ propietarioVehiculo +'}';
+        return "{" + "\nMARCA=" + marca + ", MODELO=" + modelo + ", AÑO=" + anio + 
+                '}';
     }
     
     //metodo que calcula impuestos
     public abstract double calcularImpuesto();
+
+    @Override
+    public abstract double calcularImpuestosconInterfaz();
+
     
 }

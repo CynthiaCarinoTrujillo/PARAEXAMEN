@@ -1,15 +1,15 @@
-package Gestionvehiculos;
-
-import java.util.Scanner;
-import java.util.Arrays;
+//package Gestionvehiculos;
+//
+//import java.util.Scanner;
+//import java.util.Arrays;
 
 /**
  *
  * @author cyn
  */
-public class Gestionvehiculos {
+//public class Gestionvehiculos {
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Scanner entradaDatos = new Scanner(System.in);
         //crear un array para almacenar vehiculos
         Vehiculo almacen[] = new Vehiculo[5];
@@ -188,5 +188,5 @@ public class Gestionvehiculos {
             }
 
         } //termina menu
-    } //termina main
-}
+    }*/ //termina main
+//}

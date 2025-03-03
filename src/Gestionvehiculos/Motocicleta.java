@@ -32,6 +32,11 @@ public class Motocicleta extends Vehiculo{
     public String toString() {
         return "Motocicleta{" + "cilindrada=" + cilindrada + '}';
     }*/
+
+    @Override
+    public double calcularImpuestosconInterfaz() {
+        return (0.03*anio)*50;
+    }
     
     
 }

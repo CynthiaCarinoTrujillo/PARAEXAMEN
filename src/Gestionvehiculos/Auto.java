@@ -27,5 +27,10 @@ public class Auto extends Vehiculo {
     public double calcularImpuesto() {
         return (0.05*anio)*100;
     }
+
+    @Override
+    public double calcularImpuestosconInterfaz() {
+        return (0.05*anio)*100;
+    }
     
 }

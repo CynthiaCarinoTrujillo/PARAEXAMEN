@@ -28,5 +28,10 @@ public class Camion extends Vehiculo{
     public double calcularImpuesto() {
         return (0.10*anio)*200;
     }
+
+    @Override
+    public double calcularImpuestosconInterfaz() {
+        return (0.10*anio)*200;
+    }
     
 }

@@ -1,4 +1,4 @@
-//package Gestionvehiculos;
+package Gestionvehiculos;
 
 import java.util.Scanner;
 import java.util.Arrays;
@@ -7,7 +7,7 @@ import java.util.Arrays;
  *
  * @author cyn
  */
-/*public class Main {
+public class Main {
 
     /*public static void main(String[] args) {
         Scanner entradaDatos = new Scanner(System.in);
@@ -85,5 +85,5 @@ import java.util.Arrays;
             }
 
         } //termina menu
-    }
+    }*/
 }
